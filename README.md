@@ -1,4 +1,4 @@
-# Marketing Automation module template (FastAPI + React)
+# Marketing Automation module MarktAuto (FastAPI + React)
 
 This template scaffolds the **MarketingAutomationModule**
 
