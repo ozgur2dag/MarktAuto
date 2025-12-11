@@ -6,7 +6,7 @@ This template scaffolds the **MarketingAutomationModule**
 - Core Domain Modules: MarketingAutomationModule (segments, campaigns, analytics events).
 - Shared services layer: placeholders for Auth/Identity, Notifications, Integrations, Logging.
 - Presentation (optional): simple React/Vite client to exercise the API.
-
+npm 
 ## Backend (FastAPI)
 
 ```bash
