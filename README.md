@@ -14,7 +14,7 @@ cd /backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn app.main:app --reload   # or choose a different port with --port 8001
+uvicorn app.main:app --port 8001   # or simply --reload after a launch
 ```
 
 Key endpoints (all under `/api/marketing`):
