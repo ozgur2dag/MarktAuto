@@ -1,6 +1,6 @@
 # Marketing Automation module template (FastAPI + React)
 
-This template scaffolds the **MarketingAutomationModule** from the requested layered architecture:
+This template scaffolds the **MarketingAutomationModule**
 
 - Presentation & API layer: FastAPI `PublicAPI` for marketing features (REST).
 - Core Domain Modules: MarketingAutomationModule (segments, campaigns, analytics events).
@@ -10,7 +10,7 @@ This template scaffolds the **MarketingAutomationModule** from the requested lay
 ## Backend (FastAPI)
 
 ```bash
-cd /Users/ozgurikidag/Desktop/CRM/backend
+cd /backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -31,7 +31,7 @@ Data is stored in `sqlite` (`marketing.db`). Adjust `database_url` in `app/core/
 ## Frontend (React/Vite minimal scaffold)
 
 ```bash
-cd /Users/ozgurikidag/Desktop/CRM/frontend
+cd /frontend
 npm install          # installs @vitejs/plugin-react and friends
 npm run dev          # Vite dev server (ESM, requires Node 18+)
 ```
@@ -48,10 +48,5 @@ The UI is intentionally minimal: create segments, create/launch campaigns, and p
 - `backend/app/shared` — stubs for cross-cutting services (auth, notifications, integrations).
 - `frontend` — React client to hit the marketing endpoints.
 
-## Next steps (placeholders)
 
-- Plug real Auth (JWT) into `app/shared/auth.py` and secure routes.
-- Add Notification and Integration modules to send real emails/SMS/ads.
-- Extend analytics for funnel/ROI computation per campaign and segment.
-- Add tests under `backend/tests`.
 
